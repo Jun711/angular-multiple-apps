@@ -29,7 +29,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "lazyModules": [
+              "src/app/web/web.module",
+              "src/app/mobile/mobile.module"
+            ]
           },
           "configurations": {
             "production": {
